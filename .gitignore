@@ -1,0 +1,41 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================
+# Jupyter
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Virtual Environments
+# =====================
+nlp_env/
+Environments/
+.env/
+venv/
+
+# =====================
+# Data (KEEP folder, ignore heavy files)
+# =====================
+# Keep Data/, but ignore large or sensitive files inside it
+Data/**/*.zip
+Data/**/*.tar
+Data/**/*.gz
+Data/**/*.h5
+Data/**/*.pt
+Data/**/*.pth
+Data/**/*.ckpt
+
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+.vscode/
+.idea/
+
